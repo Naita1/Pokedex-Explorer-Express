@@ -1,53 +1,45 @@
-# Pesquisa de Pokémon
+<h1 align="center">🔍 Pokédex Explorer Express</h1>
 
-Este é um projeto pessoal que permite pesquisar informações sobre Pokémon usando a API da PokeAPI. O sistema permite buscar detalhes como nome, tipo, altura, peso e imagem do Pokémon informado.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge&logo=check&logoColor=white" alt="Status Concluído"/>
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
+</p>
 
-## Tecnologias Utilizadas
-- **Node.js** com **Express** para criar o servidor backend
-- **Axios** para realizar requisições HTTP
-- **HTML, CSS e JavaScript** para a interface frontend
+<p align="center">
+  Uma aplicação Full Stack simples para busca e exploração de Pokémon, consumindo dados reais da <a href="https://pokeapi.co/" target="_blank">PokeAPI</a> através de um servidor Node.js.
+</p>
 
-## Funcionalidades
-- **Busca de Pokémon por nome:** Permite ao usuário pesquisar informações sobre um Pokémon pelo seu nome.
-- **Sugestões automáticas:** Conforme o usuário digita o nome do Pokémon (a partir de 3 caracteres), o sistema oferece sugestões de nomes.
-- **Exibição de informações detalhadas:** Após a pesquisa, o sistema exibe informações como nome, tipo, altura, peso e imagem do Pokémon.
+<hr>
 
-## Como Executar o Projeto
+## 💻 Sobre o Projeto
 
-### 1. Clonar o Repositório
-```bash
-  git clone <URL_DO_REPOSITORIO>
-  cd <NOME_DO_PROJETO>
-```
+Este projeto foi desenvolvido para praticar a integração entre Front-end e Back-end. Diferente de aplicações puramente estáticas, aqui utilizei o **Express** para criar um servidor intermediário que gerencia as requisições, demonstrando conhecimentos em arquitetura de software e consumo de APIs externas com **Axios**.
 
-### 2. Instalar Dependências
-```bash
-  npm install
-  npm install axios
-  npm install express
-```
+### ✨ Funcionalidades
 
-### 3. Iniciar o Servidor
-```bash
-  node app.js
-```
-O servidor rodará em `http://localhost:3000`.
-
-### 4. Acessar a Interface
-Abra um navegador e acesse `http://localhost:3000` para pesquisar Pokémon.
-
-## Exemplo de Uso
-1. Ao acessar a página, digite o nome de um Pokémon no campo de busca (exemplo: Pikachu).
-2. O sistema exibirá sugestões automáticas conforme você digita.
-3. Após selecionar ou completar o nome do Pokémon, clique no botão "Buscar" para visualizar as informações detalhadas.
-
-## API Utilizada
-O projeto utiliza a [PokeAPI](https://pokeapi.co/) uma API pública que fornece dados sobre os Pokémon, incluindo suas características, tipos, imagens, entre outras informações.
-
-## Melhorias Futuras
-- **Melhorarias no layout e responsividade:** O design da interface pode ser aprimorado para torná-la mais amigável e responsiva em dispositivos móveis
-- **Exibição de estatísticas:** Futuramente, a aplicação pode exibir estatísticas detalhadas, como valores de batalha e habilidades especiais dos Pokémon.
+- [x] **Busca por Nome:** Pesquise qualquer Pokémon pelo nome exato.
+- [x] **Autocomplete Inteligente:** Sugestões aparecem automaticamente a partir de 3 letras digitadas.
+- [x] **Card Detalhado:** Exibição visual de tipo, peso, altura e sprite (imagem) do Pokémon.
+- [x] **Consumo de API Externa:** Integração robusta com a PokeAPI.
 
 ---
-Desenvolvido por Tainá Ribeiro 🚀
 
+## 🛠 Tech Stack
+
+Este projeto utiliza uma arquitetura MVC simplificada:
+
+* **Back-end:** Node.js com Framework Express.
+* **Requisições HTTP:** Biblioteca Axios.
+* **Front-end:** HTML5, CSS3 e JavaScript Vanilla (Manipulação de DOM).
+
+---
+
+## 🚀 Como Executar Localmente
+
+Siga os passos abaixo para rodar a aplicação na sua máquina:
+
+### 1. Clone o repositório
+```bash
+git clone [https://github.com/Naita1/pokedex-explorer-express.git](https://github.com/Naita1/pokedex-explorer-express.git)
+cd pokedex-explorer-express
